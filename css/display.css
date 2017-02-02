@@ -50,15 +50,12 @@ abbr {border-bottom: none;}
 
 #footer {
     top: -6px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
 }
 
 /* header elements */
 
 #site_nav_global_primary {
     top: 10px;
-    border-top-right-radius: 6px;
     background: #364A84;
 }
 
@@ -97,7 +94,6 @@ abbr {border-bottom: none;}
     height: 12px;
     margin-right: 10px;
     padding: 2px 22px 2px 6px;
-    border-radius: 4px;
     border: none;
     font-size: 0.88em;
 }
@@ -113,10 +109,6 @@ abbr {border-bottom: none;}
     top: 2px;
     z-index: 2;
     cursor: pointer;
-}
-
-#site_notice {
-    border-radius: 6px;
 }
 
 /* input forms */
@@ -135,7 +127,6 @@ abbr {border-bottom: none;}
     display: block;
     float: left;
     padding: 0px 10px 1px 10px;
-    border-radius: 4px;
     border: 1px solid #ECECF2;
     font-weight: bold;
     line-height: 1.4em;
@@ -153,21 +144,6 @@ abbr {border-bottom: none;}
 
 .input_form_nav_tab a, .input_form_nav_tab.current a {
     text-decoration: none;
-}
-
-.form_notice .error,
-.form_notice .success,
-.form_notice .notice-status {
-    border-radius: 4px;
-}
-
-.form_notice_placeholder .placeholder,
-.form_notice textarea ,
-.input_form .form_settings li input,
-.input_form .form_settings li textarea,
-.threaded-replies .placeholder { /* TODO combine all these declarations */
-    border-radius: 4px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
 .input_form .form_settings .submit {
@@ -191,7 +167,6 @@ abbr {border-bottom: none;}
     display: block;
     width: 118px;
     padding: 0px 10px 1px 10px;
-    border-radius: 4px;
     text-transform: uppercase;
     text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
     word-wrap: break-word;
@@ -260,7 +235,6 @@ abbr {border-bottom: none;}
     font-size: 14px;
     display: block;
     padding: 0px 0px 1px 10px;
-    border-radius: 4px;
     text-transform: uppercase;
     text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
 }
@@ -312,7 +286,6 @@ abbr {border-bottom: none;}
     font-size: 1.2em;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
     border: 1px solid #d7621c;
-    border-radius: 4px;
     background: #FB6104;
 }
 
@@ -357,7 +330,6 @@ abbr {border-bottom: none;}
 .notice-options .form_repeat.dialogbox {
     margin-right: 0px;
     border: 1px solid #aaa;
-    border-radius: 4px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -406,13 +378,7 @@ abbr {border-bottom: none;}
 
 .entity_actions a, .entity_actions p, .entity_actions .entity_subscribe input, .entity_actions .entity_block input, .entity_actions .entity_moderation input, .entity_actions .entity_role input, .entity_actions .entity_nudge input, .entity_actions .entity_delete input, .entity_actions input.submit {
    	text-shadow:0 1px 0 rgba(255,255,255,0.4);
-    border-radius: 4px;
     background-color: #CDD1DD !important;
-}
-
-.entity_moderation:hover ul,
-.entity_role:hover ul {
-    border-radius: 4px;
 }
 
 .entity_send-a-message .form_notice legend {
@@ -430,7 +396,6 @@ abbr {border-bottom: none;}
 
 .entity_subscribe .dialogbox, .entity_tag .dialogbox {
     border: 1px solid #aaa;
-    border-radius: 4px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -446,7 +411,6 @@ abbr {border-bottom: none;}
 #pagination {
     height: 1.2em;
     padding-bottom: 12px;
-    border-radius: 6px;
 }
 
 #pagination a {
@@ -460,10 +424,6 @@ abbr {border-bottom: none;}
 
 #site_nav_global_secondary {
     margin-bottom: 10px;
-}
-
-.error, .success, .notice-status {
-    border-radius: 6px;
 }
 
 
@@ -480,7 +440,6 @@ abbr {border-bottom: none;}
     font-size: 1.2em;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
     border: 1px solid #d7621c;
-    border-radius: 4px;
     background: #FB6104;
 }
 
@@ -536,7 +495,6 @@ abbr {border-bottom: none;}
     width: 250px;
     padding: 5px;
     border: 1px solid #a6a6a6;
-    border-radius: 4px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -726,14 +684,11 @@ h4.blog-entry-title {
     background: #f2f2f2;
     width: 196px;
     padding: 10px;
-    border-radius: 4px;
     border: 1px solid #516499;
     background: #fafafa;
 }
 
 #onboard_section H2 {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
     position: relative;
     top: -11px;
     left: -11px;
