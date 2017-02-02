@@ -1,32 +1,5 @@
-/** theme: neo
- *
- * @package   StatusNet
- * @author    Samantha Doherty <sammy@status.net>
- * @copyright 2011 StatusNet, Inc.
- * @license   http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 Unported
- * @link      http://status.net/
+/** theme: spoon
  */
-
-@font-face {
-    font-family: 'Lato';
-    src: url('../fonts/lato-regular-webfont.eot?') format('eot'), url('../fonts/lato-regular-webfont.woff') format('woff'), url('../fonts/lato-regular-webfont.ttf') format('truetype'), url('../fonts/lato-regular-webfont.svg#webfontCjmEHx3G') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('../fonts/lato-bold-webfont.eot?') format('eot'), url('../fonts/lato-bold-webfont.woff') format('woff'), url('../fonts/lato-bold-webfont.ttf') format('truetype'), url('../fonts/lato-bold-webfont.svg#webfontCjmEHx3G') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('../fonts/lato-italic-webfont.eot?') format('eot'), url('../fonts/lato-italic-webfont.woff') format('woff'), url('../fonts/lato-italic-webfont.ttf') format('truetype'), url('../fonts/lato-italic-webfont.svg#webfontCjmEHx3G') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
 
 @media screen, projection, tv {
 
@@ -35,12 +8,12 @@
 body {
     background-color: #C6C8CC;
     background-image: url(../images/bg.png);
-    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-family: monospace; 
     color: #222;
 }
 
 input, textarea, select, option {
-    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-family: monospace; 
 }
 
 a {color: #3e3e8c;}
