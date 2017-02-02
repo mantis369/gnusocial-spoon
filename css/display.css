@@ -73,12 +73,10 @@ abbr {border-bottom: none;}
     display: block;
     float: left;
     color: #fff;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 #site_nav_global_primary a:hover {
     color: #fff !important;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
     background: #4c619c;
     text-decoration: none;
 }
@@ -131,13 +129,11 @@ abbr {border-bottom: none;}
     font-weight: bold;
     line-height: 1.4em;
     color: #3e3e8c;
-    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.9);
     background: #ececf2;
 }
 
 #input_form_nav li:hover a, #input_form_nav li.current a {
     color: #fff;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
     border: 1px solid #ececf2;
     background: #364a84;
 }
@@ -159,7 +155,6 @@ abbr {border-bottom: none;}
     color: #7a7c87;
     font-size: 1.1em;
     letter-spacing: 2px;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
 }
 
@@ -168,14 +163,12 @@ abbr {border-bottom: none;}
     width: 118px;
     padding: 0px 10px 1px 10px;
     text-transform: uppercase;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
     word-wrap: break-word;
 }
 
 #site_nav_local_views a:hover, #site_nav_local_views .current a {
     color: #fff;
     text-decoration: none;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
     background: #364a84;
 }
 
@@ -192,7 +185,6 @@ abbr {border-bottom: none;}
     color: #7a7c87;
     font-size: 1.25em;
     letter-spacing: 2px;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
 }
 
@@ -236,13 +228,11 @@ abbr {border-bottom: none;}
     display: block;
     padding: 0px 0px 1px 10px;
     text-transform: uppercase;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 #site_nav_object a:hover, #site_nav_object .current a {
     color: #fff;
     text-decoration: none;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
     background: #364a84;
 }
 
@@ -271,10 +261,6 @@ abbr {border-bottom: none;}
     line-height: 1.6em;
 }
 
-.section .avatar {
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
 .invite_button {
     height: 2.1em;
     line-height: 2.1em;
@@ -284,7 +270,6 @@ abbr {border-bottom: none;}
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.2em;
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
     border: 1px solid #d7621c;
     background: #FB6104;
 }
@@ -292,7 +277,6 @@ abbr {border-bottom: none;}
 .invite_button:hover {
     color: #fff;
     text-decoration: none;
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6);
     background: #ff9d63;
 }
 
@@ -330,7 +314,6 @@ abbr {border-bottom: none;}
 .notice-options .form_repeat.dialogbox {
     margin-right: 0px;
     border: 1px solid #aaa;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 
 .notice-options .form_repeat.dialogbox legend {
@@ -377,12 +360,7 @@ abbr {border-bottom: none;}
 }
 
 .entity_actions a, .entity_actions p, .entity_actions .entity_subscribe input, .entity_actions .entity_block input, .entity_actions .entity_moderation input, .entity_actions .entity_role input, .entity_actions .entity_nudge input, .entity_actions .entity_delete input, .entity_actions input.submit {
-   	text-shadow:0 1px 0 rgba(255,255,255,0.4);
     background-color: #CDD1DD !important;
-}
-
-.entity_send-a-message .form_notice legend {
-   	text-shadow:0 1px 0 rgba(255,255,255,0.4);
 }
 
 .entity_send-a-message .form_notice {
@@ -396,7 +374,6 @@ abbr {border-bottom: none;}
 
 .entity_subscribe .dialogbox, .entity_tag .dialogbox {
     border: 1px solid #aaa;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 
 .entity_subscribe .dialogbox input.submit_dialogbox, .entity_tag .dialogbox input.submit_dialogbox {
@@ -438,7 +415,6 @@ abbr {border-bottom: none;}
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.2em;
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
     border: 1px solid #d7621c;
     background: #FB6104;
 }
@@ -448,20 +424,17 @@ abbr {border-bottom: none;}
 .entity_tag .dialogbox input.submit_dialogbox:hover,
 .form_repeat.dialogbox input.submit_dialogbox:hover
 {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6);
     background: #ff9d63;
 }
 
 .form_settings input#cancel, #form_action-no {
     background: #f2f2f2;
     color: #d7621c;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 .form_settings input#cancel:hover, #form_action-no:hover {
     background: #fff;
     color: #d7621c;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 .form_settings fieldset fieldset {
@@ -495,7 +468,6 @@ abbr {border-bottom: none;}
     width: 250px;
     padding: 5px;
     border: 1px solid #a6a6a6;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
 #form_invite textarea {
@@ -696,7 +668,6 @@ h4.blog-entry-title {
     margin-right: -22px;
     margin-bottom: 5px;
     color: #fff;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
     background: #364A84;
 }
 
@@ -874,7 +845,6 @@ td.entity_profile {
     font-size: 1em;
     line-height: 1.3em;
     border: 1px solid #A6ADBF;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* SNOD CompanyLogo styling */
@@ -894,7 +864,6 @@ td.entity_profile {
 #site_nav_local_views a.company_logo:hover {
     background: none;
     color: blue;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 .company_logo img {
