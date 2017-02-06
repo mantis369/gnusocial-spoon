@@ -1,6 +1,13 @@
 /** theme: spoon
  */
 
+@font-face {
+    font-family: 'Commodore 64';
+    src: url('../fonts/Commodore-64.eot?') format('eot'), url('../fonts/Commodore-64.woff') format('woff'), url('../fonts/Commodore-64.ttf') format('truetype'), url('../fonts/Commodore-64.svg#Commodore 64') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media screen, projection, tv {
 
 /* general styles and layout */
@@ -892,7 +899,11 @@ a.company_logo:hover span {
 	border-radius: 0!important;
     text-shadow: none!important;
 }    
-    
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Commodore 64', monospace;
+}
+
 ul.notices, ul.notices li.notice {
     border:0 none!important;
     background:#999!important;
