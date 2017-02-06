@@ -483,6 +483,8 @@ abbr {border-bottom: none;}
 }
 
 #form_invite input[type=text], #form_invite textarea {
+    background:#222;
+    color:#CCC;
     width: 250px;
     padding: 5px;
     border: 1px solid #a6a6a6;
