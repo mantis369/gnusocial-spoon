@@ -915,7 +915,7 @@ ul.notices, ul.notices li.notice {
 }
 
 ul.tags {
-    font-size:0.4em;
+    font-size:0.4em!important;
 }
     
 }/*end of @media screen, projection, tv*/
