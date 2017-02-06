@@ -361,7 +361,6 @@ abbr {border-bottom: none;}
 .entity_profile {
     color: #CCC !important;
     float: left;
-    width: 360px;
     margin-top: 4px;
     overflow: visible !important;
 }
@@ -807,7 +806,7 @@ table.profile_list {
 }
 
 td.entity_profile {
-    width: 360px;
+    width: 300px;
 }
 
 .profile_list .p-name {
