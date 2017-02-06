@@ -392,6 +392,15 @@ abbr {border-bottom: none;}
     background-color: #222 !important;
 }
 
+table.profile_list tbody tr {
+    background-color: #222 !important;
+}
+
+table.profile_list tbody tr:nth-child(2n+1) {
+    background-color: #090 !important;
+    border: none !important;
+}
+
 .entity_send-a-message .form_notice {
     border: 1px solid #090;
 }
