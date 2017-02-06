@@ -107,6 +107,8 @@ abbr {border-bottom: none;}
 }
 
 #header-search input[type="submit"] {
+    display: none;
+    visibility: hidden;
     border: 0;
     text-indent: -9999px;
     width: 20px;
