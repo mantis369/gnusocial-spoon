@@ -359,6 +359,8 @@ abbr {border-bottom: none;}
 }
 
 .entity_profile {
+    background: #222;
+    color: #CCC;
     float: left;
     width: 360px;
     margin-top: 4px;
