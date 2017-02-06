@@ -364,6 +364,7 @@ abbr {border-bottom: none;}
     float: left;
     width: 360px;
     margin-top: 4px;
+    overflow: visible !important;
 }
 
 .entity_profile .entity_depiction {
