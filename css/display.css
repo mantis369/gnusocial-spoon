@@ -19,6 +19,8 @@ body {
 }
 
 input, textarea, select, option {
+    background: #222;
+    color: #CCC;
     font-family: monospace; 
 }
 
