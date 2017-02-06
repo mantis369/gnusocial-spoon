@@ -29,6 +29,8 @@ abbr {border-bottom: none;}
 
 #wrap { /*masthead*/
     background: #080;
+    border-left: 10px solid #fc5454;
+    border-right: 10px solid #fc5454;
 }
 
 #header {
