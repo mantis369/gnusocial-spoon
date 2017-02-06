@@ -359,11 +359,10 @@ abbr {border-bottom: none;}
 }
 
 .entity_profile {
-    background: #222;
-    color: #CCC;
+    color: #CCC !important;
     float: left;
-    width: 360px;
     margin-top: 4px;
+    overflow: visible !important;
 }
 
 .entity_profile .entity_depiction {
@@ -807,7 +806,7 @@ table.profile_list {
 }
 
 td.entity_profile {
-    width: 150px;
+    width: 300px;
 }
 
 .profile_list .p-name {
