@@ -898,7 +898,11 @@ a.company_logo:hover span {
 * {
 	border-radius: 0!important;
     text-shadow: none!important;
-}    
+}
+
+a:hover {
+    color:red;
+}
 
 h1, h2, h3, h4, h5, h6,
 ul.tags {
@@ -908,6 +912,10 @@ ul.tags {
 ul.notices, ul.notices li.notice {
     border:0 none!important;
     background:#999!important;
+}
+
+ul.tags {
+    font-size:0.4em;
 }
     
 }/*end of @media screen, projection, tv*/
